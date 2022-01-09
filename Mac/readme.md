@@ -46,8 +46,8 @@ Now its time to play around with this model. Here are some possible experiments 
 1) How does the rise time of the current trace vary with inductance? Record the time for peak current for a variety of inductance values. Try scaling by orders of magnitude.
 2) What changes as you vary the resistance of the circuit?
 3) Try building a simple pulse-forming network. Add a second capacitor in parallel to the first one and with enough space to add a second inductor between the two. Connect the circuit and give the new elements the same values as the originals. You will need to add initial conditions for the voltage of the second capacitor (note, adding a capacitor to the left means that the new capacitor is now node 1 and the second capacitor is now node 2) and for the current of the new inductor.
-    a) What does the voltage at node 1 look like now? What about the current in the resistor?
-    b) What happens if I make the inductance of L2 larger than that of L1?
-    c) What happens to the current if I add another capacitor inductor pair? Two more?
+    a. What does the voltage at node 1 look like now? What about the current in the resistor?
+    b. What happens if I make the inductance of L2 larger than that of L1?
+    c. What happens to the current if I add another capacitor inductor pair? Two more?
 
 
