@@ -1,6 +1,7 @@
 # LTspice Startup Guide
 ## Introduction
-This tutorial is does not include all the capabilities of LTspice. In fact, the reason for this document is to reduce stress for anyone using LTspice on a Mac, there are differences between Windows and Mac versions.
+This tutorial is does not include all the capabilities of LTspice. In fact, the reason for this document is to reduce stress for anyone using LTspice on a Mac, there are differences between Windows and Mac versions. I recommend further reading, here are some references that are current as of the creation of this tutorial:
+[Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/), [short youtube video](https://www.youtube.com/watch?v=MsilYqaGPQw).
 
 ## Installation
 Download LTspice from the Linear Technology Webpage:
