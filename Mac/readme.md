@@ -6,7 +6,7 @@ This tutorial is does not include all the capabilities of LTspice. In fact, the 
 Download LTspice from the Linear Technology Webpage:
 [LTspice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
 
-##Tutorial
+## Tutorial
 Once the software is installed, open the program. In the file menue, open a new schematic.
 
 Circuit elements are listed on the top right. You can hover the mouse over an icon to see what it is. Place a resistor, a capacitor and an inductor on the schematic. It is most useful to make sure to place the capacitor vertically on the left hand side of the circuit, the resistor vertical on the right hand side, and the inductor horizontally on the top. You can rotate any of the elements by first selecting the element, then selecting the rotate icon (to the right of the circuit element icons). If you make any mistakes, you can delete elements by hovering over them, and hitting delete. This will bring up the scissors cursor and if you
