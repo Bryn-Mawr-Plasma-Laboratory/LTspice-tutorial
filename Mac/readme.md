@@ -21,6 +21,20 @@ Next, we have to establish a ground reference. Place a ground element at the bot
 Finally, we have to establish some initial conditions. We do so using something called Spice Directives. The Spice directive icon is the very last icon on the right. Click it and make sure it is toggled to Spice directive. The directives are input in the text box. First, we need to set the voltage on the capacitor. We will set the voltage of the first node of the circuit to 100V. This assumes that the capacitor has been placed vertically and on the left hand side of the circuit.
 
 Write:
+`.ic V(n001) = 100V`
+
+And hit ok. You now have to place that directive somewhere on the schematic. It doesn’t matter where. I typically put it at the bottom of the page.
+
+We can now check to see that our circuit operates correctly.
+
+Click run at the top left (the running person icon). This will bring up an edit simulation command box. Under the first tab labeled transients, input a stop time of 1ms. Press ok and an empty graph will appear. Next you have to indicate what you want to graph. Hover over the first node. This should be the wire between the capacitor and the resistor. A probe cursor will appear. When you click, it plots the voltage above. Does the curve make sense given what you know about RC circuits?
+
+Next, we want to measure the current through the resistor. Hover over the resistor and a loop looking cursor will appear. Click and a trace of current will appear with units listed on the right side of the graph.
+Does this curve make sense? It shouldn’t because this is supposed to be an LRC circuit, not an RC circuit. This means we need to add one more directive. We need to set the initial current of the inductor to zero. This is more reflective of reality. 
+
+Click on the spice directive icon again.
+
+Write:
 `.ic I(L1) = 0`
 
 Click ok and place the directive anywhere.
